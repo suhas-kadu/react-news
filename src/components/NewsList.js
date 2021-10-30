@@ -17,7 +17,7 @@ const NewsList = (props) => {
   });
 
   return (
-    <div className="grid my-4">
+    <div className="grid my-4 pb-5">
       <div className="row g-4">{renderedNews}</div>
     </div>
   );
